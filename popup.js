@@ -18,7 +18,7 @@ function downloadPageSource() {
         var blob = new Blob([pageSource], { type: 'text/plain' });
         var downloadLink = document.createElement('a');
         downloadLink.href = URL.createObjectURL(blob);
-        downloadLink.download = `${new URL(siteUrl).href}-${Date.now()}.txt`;
+        downloadLink.download = `${new URL(siteUrl).hostname.replace(/\./g, '_')}-${new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '').replace(/[T]/g, '-').replace(/[Z]/g, '')}.txt`;
         downloadLink.click();
       })
       .catch(error => {
