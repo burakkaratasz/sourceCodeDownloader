@@ -1,4 +1,7 @@
-<img width="95" alt="Ekran Resmi 2024-02-02 14 43 31" src="https://github.com/burakkaratasz/sourceCodeDownloader/assets/113118853/14745156-51a0-4db3-8292-1e77dc82c86c">
+<p align="center">
+    <img width="300" alt="Ekran Resmi 2024-02-02 14 43 31" src="https://github.com/burakkaratasz/sourceCodeDownloader/assets/113118853/14745156-51a0-4db3-8292-1e77dc82c86c">
+</p>
+
 
 # Source Code Downloader Chrome Extension
 
